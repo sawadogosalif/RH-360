@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 *.ipynb linguist-language=Python
+*.py linguist-language=Python
+*.html linguist-language=Python
