@@ -5,6 +5,7 @@ import plotly.express as px
 import streamlit as st 
 from datetime import datetime
 
+
 def get_data() -> pd.DataFrame:
     df2 =  pd.read_pickle(r"C:\Users\sawal\OneDrive - UPEC\Diot-Siaci\OUTPUT\presence_anomalies.pkl")
     df1 = pd.read_pickle(r"C:\Users\sawal\OneDrive - UPEC\Diot-Siaci\OUTPUT\presence_indcator.pkl")
